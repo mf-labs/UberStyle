@@ -1,0 +1,8 @@
+name: 'UberStyle'
+description: 'uberstyle
+outputs:
+  generic-message:
+    value: 'your code follows all conventions, great job!'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
